@@ -46,3 +46,55 @@
 //   return s.substr(Math.ceil(s.length / 2 - 1), s.length % 2 === 0 ? 2 : 1);
 // }
 
+//------------------------------------------------------------------------------------
+
+// function findNeedle(haystack) {
+//   return "found the needle at position " + haystack.indexOf("needle");
+// }
+
+//------------------------------------------------------------------------------------
+
+// function fakeBin(x) {
+//   return x.split('').map(n => n < 5 ? 0 : 1).join('');
+// }
+
+//------------------------------------------------------------------------------------
+
+// const rps = (p1, p2) => {
+//   if (p1 == 'scissors' && p2 == 'paper') {
+//     return 'Player 1 won!'
+//   }
+//   if (p1 == 'paper' && p2 == 'rock') {
+//     return 'Player 1 won!'
+//   }
+//   if (p1 == 'rock' && p2 == 'scissors') {
+//     return 'Player 1 won!'
+//   }
+//     if (p1 == 'paper' && p2 == 'scissors') {
+//     return 'Player 2 won!'
+//   }
+//   if (p1 == 'rock' && p2 == 'paper') {
+//     return 'Player 2 won!'
+//   }
+//   if (p1 == 'scissors' && p2 == 'rock') {
+//     return 'Player 2 won!'
+//   }
+  
+//   return 'Draw!'
+// }
+
+//------------------------------------------------------------------------------------
+
+// function updateLight(current) {
+  
+//   return current === 'yellow' ? 'red' : current === 'green' ? 'yellow' : 'green';
+
+// }
+
+//------------------------------------------------------------------------------------
+
+// function doubleChar(str) {
+//   return str.split("").map(function (c) {
+//     return c + c;
+//   }).join("");
+// }
