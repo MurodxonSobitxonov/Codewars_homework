@@ -130,3 +130,77 @@
 // function nameSuffle(str){
 //   return str.split(' ').reverse().join(' ')
 // }
+
+//-----------------------------------------------------------------------------------------------------------------------------
+
+// var grader = sc =>{
+//   if (sc < 1 && sc >= 0.9) return "A";
+//   if (sc < 0.9 && sc >= 0.8) return "B";
+//   if (sc < 0.8 && sc >= 0.7) return "C";
+//   if (sc < 0.7 && sc >= 0.6) return "D";
+//   if (sc > 1 || sc < 0.6) return "F";
+//   return 'A';
+//   }
+
+//-----------------------------------------------------------------------------------------------------------------------------
+
+// 1.
+
+// function solution(str){
+//   return str.split('').reverse().join('');
+// }
+
+// 2.
+
+// function stringToArray(string){
+//   return string.split(' ');
+// }
+
+// 3.
+
+// function sumMix(x){
+//   let result = 0;
+//   for (let n of x) {
+//     result += parseInt(n);
+//   }
+//   return result;
+// }
+
+// 4.
+
+// function grow(x){
+//   return x.reduce((accumulator, currentVal) => accumulator *= currentVal, 1);
+// }
+
+// 5.
+
+// function switchItUp(n){
+//   return ["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"][n]
+// }
+
+// 6.
+
+// function sum(numbers) {
+//   return numbers.reduce((a, b) => a + b, 0);
+// }
+
+// 7.
+
+// function cockroachSpeed(s) {
+//   return Math.floor(s * 100000 / 60 / 60);
+// }
+
+// 8.
+
+// function countPositivesSumNegatives(input) {
+//   return !input || !input.length ? [] : [
+//     input.filter(n => n > 0).length,
+//     input.filter(n => n < 0).reduce((a, b) => a + b)
+//   ];
+// }
+
+// 9.
+
+// function check(a, x) {
+//   return a.includes(x)
+//   }
