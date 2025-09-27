@@ -343,11 +343,13 @@
 
 //=========================================================================
 //13
+
 // function century(year) {
 //   return Math.ceil(year / 100);
 // }
 //=========================================================================
 //14
+
 // function twiceAsOld(dadYearsOld, sonYearsOld) {
 //   let diff = dadYearsOld - 2 * sonYearsOld;
 //   if (diff < 0) {
@@ -359,3 +361,10 @@
 //=========================================================================
 //15
 
+// function simpleMultiplication(number) {
+//   if (number % 2 === 0) {
+//     return number * 8;
+//   } else {
+//     return number * 9;
+//   }
+// }
